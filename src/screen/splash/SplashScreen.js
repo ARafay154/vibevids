@@ -8,15 +8,14 @@ import { SCREENS } from '../../enums/AppEnums'
 const SplashScreen = ({navigation}) => {
   useEffect(() => {
     setTimeout(() => {
-     navigation.navigate(SCREENS.LOGIN)
-    }, 2500);
+     navigation.replace(SCREENS.ONBOARD_1)
+    }, 3500);
   }, [navigation])
 
   return (
     <View style={styles.container}>
       <Label animation="bounce" style={styles.labelText}>{En.ebotcpa}</Label>
-      {/* <Label animation="zoomIn" style={styles.labelText2}>{En.taxProblem}</Label> */}
-      
+    
     </View>
   )
 }

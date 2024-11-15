@@ -1,6 +1,7 @@
 import { Platform } from 'react-native'
 import Toast from 'react-native-toast-message';
 import { COLOR, FONT, hp, wp } from '../enums/StyleGuide'
+import moment from 'moment';
 
 
 export const isIOS = () => {
@@ -57,3 +58,8 @@ export const isStrongPassword = (text) => {
     return reg?.test(text)
   }
   
+  export const formatDate = (timestamp) => {
+    // Assuming timestamp is in seconds or milliseconds from Firebase
+    const formattedDate = moment(timestamp).format('MMM DD, YYYY');
+    return formattedDate;
+};

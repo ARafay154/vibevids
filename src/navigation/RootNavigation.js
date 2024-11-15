@@ -40,10 +40,9 @@ const RootNavigation = () => {
                 {
                     !user ?
                         <>
+
                             <Stack.Screen name={SCREENS.SPLASH} component={ui.SplashScreen} />
                             <Stack.Screen name={SCREENS.ONBOARD_1} component={ui.OnboardingScreen1} />
-                            <Stack.Screen name={SCREENS.ONBOARD_2} component={ui.OnBoardingScreen2} />
-                            <Stack.Screen name={SCREENS.ONBOARD_3} component={ui.OnBoardingScreen3} />
                             <Stack.Screen name={SCREENS.LOGIN} component={ui.LoginScreen} />
                             <Stack.Screen name={SCREENS.SIGNUP} component={ui.SignUpScreen} />
                             <Stack.Screen name={SCREENS.FORGOT} component={ui.ForgotPasswordScreen} />
@@ -78,6 +77,7 @@ const RootNavigation = () => {
                             <Stack.Screen name={SCREENS.ACCOUNT_TYPE} component={ui.AccountTypeScreen} />
                             <Stack.Screen name={SCREENS.NEW_APPOINTMENT} component={ui.NewAppointment} />
                             <Stack.Screen name={SCREENS.VIEW_PDF} component={ui.ViewPdfScreen} />
+                            <Stack.Screen name={SCREENS.EDIT_PROFILE} component={ui.EditProfileScreen} />
                         </>
 
                 }

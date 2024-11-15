@@ -59,7 +59,7 @@ const LoginScreen = ({ navigation }) => {
           value={password}
           onChange={(e) => setPassword(e)}
         />
-        <Pressable onPress={() => navigation.navigate(SCREENS.FORGOT)}>
+        <Pressable disabled={true} onPress={() => navigation.navigate(SCREENS.FORGOT)}>
           <Label style={styles.forgotPassword}>{En.forgotPassword}</Label>
         </Pressable>
 

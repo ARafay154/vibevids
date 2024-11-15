@@ -12,7 +12,7 @@ const HomeScreen = ({navigation}) => {
     <View style={styles.container}>
       <AppHeader
         centerComp={<Logo />}
-        rightComp={<CustomIcon family='FontAwesome5' name={"user-circle"} />}
+        // rightComp={<CustomIcon family='FontAwesome5' name={"user-circle"} />}
         style={{ paddingHorizontal: wp(2) }}
       />
 

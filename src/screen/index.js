@@ -21,6 +21,7 @@ import AffiliateScreen from './affiliate'
 import AccountTypeScreen from './accountType'
 import NewAppointment from './newAppointment'
 import ViewPdfScreen from './viewPdf'
+import EditProfileScreen from './editProfile'
 
 export {
     SplashScreen,
@@ -37,7 +38,8 @@ export {
     AffiliateScreen,
     AccountTypeScreen,
     NewAppointment,
-    ViewPdfScreen
+    ViewPdfScreen,
+    EditProfileScreen
   
 
 }

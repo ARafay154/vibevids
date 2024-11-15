@@ -36,7 +36,6 @@ const { StatusBarManager } = NativeModules;
 const BottomNavigation = () => {
     const Tab = createBottomTabNavigator();
 
-    const user = useSelector(({ appReducer }) => appReducer.user);
 
  
     return (

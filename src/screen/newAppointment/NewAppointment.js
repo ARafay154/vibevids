@@ -1,10 +1,10 @@
 import React, { memo, useState } from 'react';
-import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, Platform } from 'react-native';
 import { COLOR, hp, TEXT_STYLE, wp } from '../../enums/StyleGuide';
 import { En } from '../../locales/En';
 import { AppHeader, BackBtn, Button, CustomIcon, Input, Label, Pressable, Scrollable } from '../../components';
 import DocumentPicker from 'react-native-document-picker';
-import { showFlash } from '../../utils/MyUtils';
+import { isIOS, showFlash } from '../../utils/MyUtils';
 import { addDocument, uploadDocument } from '../../services/FirebaseMethods';
 import { FIREBASE_COLLECTIONS, FIREBASE_STORAGE, KEYBOARD_TYPE, STATUS } from '../../enums/AppEnums';
 import { useSelector } from 'react-redux';

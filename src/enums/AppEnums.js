@@ -42,7 +42,8 @@ export const KEYBOARD_TYPE = {
     FOR_AFFILIATE:"AffiliateScreen",
     ACCOUNT_TYPE:"AccountTypeScreen",
     NEW_APPOINTMENT:"NewAppointment",
-    VIEW_PDF:"ViewPdfScreen"
+    VIEW_PDF:"ViewPdfScreen",
+    EDIT_PROFILE:"EditProfileScreen"
 
     
   }
