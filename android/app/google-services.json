@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "86448846090",
+    "project_id": "vibevids-5b694",
+    "storage_bucket": "vibevids-5b694.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86448846090:android:c6eea1c7cc17c24327f6f3",
+        "android_client_info": {
+          "package_name": "com.vibevids"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3meXQKe5YhE1VxQG51koK_O6hPst7A6g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
